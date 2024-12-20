@@ -312,3 +312,23 @@
     })();
 
 })(document.documentElement);
+
+
+    function openModal(filePath) {
+        // Set the file path in the iframe
+        document.getElementById('fileFrame').src = filePath;
+        
+        // Show the modal
+        document.getElementById('fileModal').style.display = 'block';
+    }
+
+    function closeModal() {
+        // Hide the modal
+        document.getElementById('fileModal').style.display = 'none';
+        
+        // Clear the file path
+        document.getElementById('fileFrame').src = '';
+    }
+    
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
