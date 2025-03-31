@@ -95,6 +95,7 @@
                     <ul class="s-header__menu-links">
                         <li class="current"><a class="smoothscroll" href="#intro">Home</a></li>
                         <li><a class="smoothscroll" href="#about">About</a></li>
+                        <li><a class="smoothscroll" href="#experience">Experience</a></li>
                         <li><a class="smoothscroll" href="#works">Projects</a></li>
                         <li><a class="smoothscroll" href="#footer">Contact</a></li>
                     </ul>   
@@ -137,7 +138,7 @@
                 <img src="images/portfolio1.jpg" srcset="images/portfolio1.jpg 1x, images/portfolio1.jpg 2x" alt="">
             </div>               
             <div class="s-intro__btn-download">
-                <a class="btn btn--stroke" href="Resume_Alwinkg_fresher.pdf" download>Get My Resume</a>
+                <a class="btn btn--stroke" href="alwin_resume.pdf" download>Get My Resume</a>
             </div>         
             <div class="s-intro__scroll-down">
                 <a href="#about" class="smoothscroll">
@@ -255,30 +256,7 @@
                                             <iframe id="fileFrame" src="" style="width:100%; height:100%; border:none;" ></iframe>
                                         </div>
                                     </div>
-                                </li><li>
-                                    <a href="#" onclick="openModal('Digital Marketing Certi.pdf')">
-                                        Fundementals of digital marketing
-                                        <span>Google — 2023</span>
-                                    </a> 
-                                    <div id="fileModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8); z-index:1000;">
-                                        <div style="position:relative; width:80%; height:80%; margin:auto; top:10%; background-color:white; border-radius:8px; overflow:hidden;">
-                                            <button onclick="closeModal()" style="position:absolute; top:70px; right:20px; background:red; color:white; border:none; border-radius:50%; padding:5px 5px; cursor:pointer;">X</button>
-                                            <iframe id="fileFrame" src="" style="width:100%; height:100%; border:none;" ></iframe>
-                                        </div>
-                                    </div>
-                                    </li>                                       
-                                    <li>
-                                        <a href="#" onclick="openModal('matlab_certificate.pdf')"> 
-                                            MATLAB Onramp
-                                            <span>MathWorks training service — 2023</span>
-                                        </a>
-                                        <div id="fileModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8); z-index:1000;">
-                                            <div style="position:relative; width:80%; height:80%; margin:auto; top:10%; background-color:white; border-radius:8px; overflow:hidden;">
-                                                <button onclick="closeModal()" style="position:absolute; top:70px; right:20px; background:red; color:white; border:none; border-radius:50%; padding:5px 5px; cursor:pointer;">X</button>
-                                                <iframe id="fileFrame" src="" style="width:100%; height:100%; border:none;" ></iframe>
-                                            </div>
-                                        </div>
-                                    </li>    
+                                </li>
                             </ul>
                         </div> 
                         
@@ -294,22 +272,19 @@
                                     Python Programming
                                 </li>
                                 <li>
-                                    Backend Development: Django Framework
+                                    Backend Development: Django, Node.js, Express.js
                                 </li>                           
                                 <li>
-                                    Frontend Development: Angular Framework
+                                    Frontend Development: React, HTML, CSS
                                 </li>
                                 <li>
-                                    HTML, CSS, JavaScript
+                                    Database: Mysql, SqlLite, Mongodb
                                 </li>
                                 <li>
-                                    Database: Mysql, SqlLite
+                                    Tools: Git, POSTMAN, VScode, Google colab
                                 </li>
                                 <li>
-                                    REST API
-                                </li>
-                                <li>
-                                    ML: Tensorflow, Matplotlib, Pandas, Scikit learn, Numpy, Seaborn
+                                    Machine Learning
                                 </li>
                                 <li>
                                     Microsoft Excel, PowerPoint, Word
@@ -332,7 +307,7 @@
                                     Effective Communicator
                                 </li>
                                 <li>
-                                    Management
+                                    Time Management
                                 </li>
                                 <li>
                                     Languages: English, Malayalam
@@ -366,6 +341,101 @@
             
         </section>  
 
+        <!-- Add this section below your "About" section and above your "Projects" section -->
+        <section id="experience" class="s-experience target-section">
+            <a href="#" onclick="openModal('Alwin K G_Certificate.pdf')">
+                <div class="row">
+                    <div class="column xl-12">
+                        <div class="section-header" data-num="02"> <!-- Updated number to maintain sequence -->
+                            <h2 class="text-display-title">Professional Experience.</h2>
+                        </div> 
+                    </div>
+                </div>
+    
+                <div class="row experience-entries">
+                    <!-- EY GDS Experience -->
+                    <div class="column xl-12">
+                        <div class="experience-entry">
+                            <div class="experience-header">
+                                <h3>EY GDS (Ernst & Young - Global Delivery Services)</h3>
+                                <p class="experience-role">Full Stack Web Development Intern</p>
+                                <p class="experience-date">Feb 2025 - Mar 2025</p>
+                            </div>
+                            <div class="experience-content">
+                                <ul class="experience-list">
+                                    <li>Gained expertise in AI tools, UI/UX design principles, and web development through hands-on learning and master classes</li>
+                                    <li>Recognized for developing one of the top 40 best projects, earning a certificate of excellence</li>
+                                    <li>Presented project prototypes to EY experts, refining solutions based on feedback</li>
+                                    <li>Showcased strong problem-solving, time management, and technical proficiency</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </section>
+
+        <!-- Add this CSS to your style section -->
+        <style>
+            .s-experience {
+                padding: 60px 20px;
+                background-color: #ffffff;
+            }
+
+            .experience-entries {
+                max-width: 1000px;
+                margin: 0 auto;
+            }
+
+            .experience-entry {
+                background: #f8f9fa;
+                border-radius: 8px;
+                padding: 30px;
+                margin-bottom: 30px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .experience-header h3 {
+                font-size: 1.5em;
+                color: #333;
+                margin-bottom: 5px;
+            }
+
+            .experience-role {
+                font-size: 1.1em;
+                color: #555;
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+
+            .experience-date {
+                font-size: 0.9em;
+                color: #777;
+                margin-bottom: 15px;
+            }
+
+            .experience-list {
+                list-style-type: disc;
+                padding-left: 20px;
+            }
+
+            .experience-list li {
+                margin-bottom: 8px;
+                line-height: 1.6;
+            }
+        </style>
+
+        <!-- Update your navigation to include the experience link -->
+        <script>
+            // Update your header navigation to include the experience link
+            document.querySelector('.s-header__menu-links').innerHTML += `
+                <li><a class="smoothscroll" href="#experience">Experience</a></li>
+            `;
+            
+            // Or manually add it to your nav menu if the above doesn't work
+        </script>
+
         <section id="works" class="s-works target-section">
             <div class="row">
                 <div class="column xl-12">
@@ -374,15 +444,61 @@
                     </div> 
                 </div>
             </div>
-                <div class="folio-entries">
+            <div class="folio-entries">
+                <div class="entry">
+                    <a href="images/folio/finbridge.png" 
+                        class="entry__link glightbox" 
+                        data-glightbox="title: FinBridge; description: .entry__desc-01">
+                        <div class="entry__thumb">
+                            <img src="images/folio/finbridge.png" 
+                                    srcset="images/folio/finbridge.png 1x, images/folio/finbridge.png 2x" 
+                                    alt="FinBridge">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">FinBridge</h4>
+                            <div class="entry__cat">Internship</div>
+                        </div>
+                    </a>
+                    <div class="glightbox-desc entry__desc-01">
+                        <p>
+                            Developed an AI-powered financial management app using the MERN stack, integrating AI-based financial advice to improve
+                            user efficiency by 30%.
+                            Technologies: React, Node.js, Django, Express.js, MongoDB, Sklearn.
+                            <a href="https://github.com/Alwinkg7/Personal-Finance-Manager.git">Project Link</a>.
+                        </p>
+                    </div>
+                </div> 
+                <div class="entry">
+                    <a href="images/folio/landcover.png" 
+                        class="entry__link glightbox" 
+                        data-glightbox="title: Land-cover Segmentation; description: .entry__desc-01">
+                        <div class="entry__thumb">
+                            <img src="images/folio/landcover.png" 
+                                    srcset="images/folio/landcover.png 1x, images/folio/landcover.png 2x" 
+                                    alt="landcover">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Land-cover Segmentation</h4>
+                            <div class="entry__cat">Individual</div>
+                        </div>
+                    </a>
+                    <div class="glightbox-desc entry__desc-01">
+                        <p>
+                            Achieved over 92% IoU and 97% F1-score in classifying satellite imagery land cover types, including buildings, water bodies,
+                            and vegetation through advanced U-Net semantic segmentation techniques using PyTorch and OpenCV.
+                            Technologies: Python, TensorFlow, Keras, OpenCV, React, Django.
+                            <a href="https://github.com/Alwinkg7/Land-cover-segmentation.git">Project Link</a>.
+                        </p>
+                    </div>
+                </div>    
                 <div class="entry">
                     <a href="images/folio/eduinv.png" 
-                       class="entry__link glightbox" 
-                       data-glightbox="title: EduInv; description: .entry__desc-01">
+                    class="entry__link glightbox" 
+                    data-glightbox="title: EduInv; description: .entry__desc-01">
                         <div class="entry__thumb">
                             <img src="images/folio/eduinv.png" 
-                                 srcset="images/folio/eduinv.png 1x, images/folio/eduinv.png 2x" 
-                                 alt="EduInv">
+                                srcset="images/folio/eduinv.png 1x, images/folio/eduinv.png 2x" 
+                                alt="EduInv">
                         </div>
                         <div class="entry__info">
                             <h4 class="entry__title">EduInv</h4>
@@ -393,19 +509,19 @@
                         <p>
                             Edu.Inv is an educational loan platform that streamlines applications, reducing approval time to 3 days. 
                             Built with Python, Django, and SQLite, it connects students and investors through dynamic dashboards and secure offer management.
-                            <!-- <a href="https://www.behance.net/">Project Link</a>. -->
+                            <a href="https://github.com/Alwinkg7/EduInv.git">Project Link</a>.
                         </p>
                     </div>
                 </div> 
-        
+    
                 <div class="entry">
                     <a href="images/folio/BuyItNow.png" 
-                       class="entry__link glightbox" 
-                       data-glightbox="title: BuyItNow; description: .entry__desc-03">
+                    class="entry__link glightbox" 
+                    data-glightbox="title: BuyItNow; description: .entry__desc-03">
                         <div class="entry__thumb">
                             <img src="images/folio/BuyItNow.png" 
-                                 srcset="images/folio/BuyItNow.png 1x, images/folio/BuyItNow.png 2x" 
-                                 alt="BuyItNow">
+                                srcset="images/folio/BuyItNow.png 1x, images/folio/BuyItNow.png 2x" 
+                                alt="BuyItNow">
                         </div>
                         <div class="entry__info">
                             <h4 class="entry__title">BuyItNow</h4>
@@ -416,18 +532,18 @@
                         <p>
                             BuyItNow is an e-commerce website for electronic products, offering a seamless shopping experience.
                             Built with Python, Django, and SQLite, it features a user-friendly interface and efficient product management.
-                            <!-- <a href="https://www.behance.net/">Project Link</a>. -->
+                            <a href="https://github.com/Alwinkg7/BuyItNow.git">Project Link</a>.
                         </p>
                     </div>
                 </div> 
                 <div class="entry">
                     <a href="images/folio/STSS.jpg" 
-                       class="entry__link glightbox" 
-                       data-glightbox="title: SmartTraffic Signal System; description: .entry__desc-04">
+                    class="entry__link glightbox" 
+                    data-glightbox="title: SmartTraffic Signal System; description: .entry__desc-04">
                         <div class="entry__thumb">
                             <img src="images/folio/STSS.jpg" 
-                                 srcset="images/folio/STSS.jpg 1x, images/folio/STSS.jpg 2x" 
-                                 alt="Caffeine & Tulips">
+                                srcset="images/folio/STSS.jpg 1x, images/folio/STSS.jpg 2x" 
+                                alt="Caffeine & Tulips">
                         </div>
                         <div class="entry__info">
                             <h4 class="entry__title">Smart Traffic Signal System</h4>
@@ -438,18 +554,18 @@
                         <p>
                             Smart Traffic Signal System is an IoT-based solution that optimizes urban traffic flow using sensors and automation.
                             Built with Arduino, it enhances efficiency and reduces congestion at intersections through real-time traffic management.
-                            <!-- <a href="https://www.behance.net/">Project Link</a>. -->
+                            <a href="https://github.com/Alwinkg7/SMART-TRAFFIC-SIGNAL-SYSTEM-.git">Project Link</a>.
                         </p>
                     </div>
                 </div> 
                 <div class="entry">
                     <a href="images/folio/Task Manager.png" 
-                       class="entry__link glightbox" 
-                       data-glightbox="title: Task Manager; description: .entry__desc-05">
+                    class="entry__link glightbox" 
+                    data-glightbox="title: Task Manager; description: .entry__desc-05">
                         <div class="entry__thumb">
                             <img src="images/folio/Task Manager.png" 
-                                 srcset="images/folio/task Manager.png 1x, images/folio/Task Manager.png 2x" 
-                                 alt="Caffeine & Tulips">
+                                srcset="images/folio/task Manager.png 1x, images/folio/Task Manager.png 2x" 
+                                alt="Caffeine & Tulips">
                         </div>
                         <div class="entry__info">
                             <h4 class="entry__title">Task Manager</h4>
@@ -460,7 +576,7 @@
                         <p>
                             Developed a secure and scalable Task Manager application with user registration, authentication, and efficient task management using React and FastAPI.
                             Technologies Used: React, FastAPI, Python, JavaScript, HTML, CSS, SQLite.
-                            <!-- <a href="https://www.behance.net/">Project Link</a>. -->
+                            <a href="https://github.com/Alwinkg7/Task-Manager-API.git">Project Link</a>.
                         </p>
                     </div>
                 </div> 
@@ -548,7 +664,7 @@
                 </div>
           
                 <div class="column xl-6 tab-12">                    
-                    <a href="Resume_Alwinkg_fresher.pdf" download class="btn btn--stroke btn--large u-fullwidth">Get My CV</a>
+                    <a href="alwin_resume.pdf" download class="btn btn--stroke btn--large u-fullwidth">Get My CV</a>
                 </div>
             
             </div>              
